@@ -24,9 +24,7 @@ The Note-Taker helps the user write and save notes. It a great way for the user 
 All set to run the app. 
 
 ## Usage
-* run <b>node server</b> in the terminal
-* server would be available at <b>localhost:3001</b>
-*
+
  
 ## Contribution
 At the moment I won't be accepting contributions.
