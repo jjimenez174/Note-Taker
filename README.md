@@ -30,7 +30,7 @@ All set to run the app.
 At the moment I won't be accepting contributions.
 
 ## Test
-
+There are no test for the application.
 
 ## License
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)

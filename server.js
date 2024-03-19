@@ -11,12 +11,13 @@ var uniqid = require('uniqid');
 const app = express();
 const PORT = process.env.PORT || 3001;
 
-app.use(express.static('public'));
+app.use(express.static('/public'));
 
 app.use(express.urlencoded({ extended: true }));
 app.use(express.json());
 
 // GET Route for homepage
+module.exports = (app) => {
 app.get('*', (req,res) => {
     res.sendFile(path.join(__dirname, './public/index.html'));
 });
@@ -24,6 +25,7 @@ app.get('*', (req,res) => {
 app.get('/notes', (req,res) => {
     res.sendFile(path.join(__dirname, './public/notes.html'));
 });
+};
 
 // Routing
 module.exports = (app) => {
