@@ -44,4 +44,6 @@ Contact me at: [jjimenez174](https://github.com/jjimenez174)
 
 ## Link Deploy Application
 
-[Deploy Application]()
+[Deploy Application](https://jjimenez174.github.io/Note-Taker/)
+
+[Heroku]()
