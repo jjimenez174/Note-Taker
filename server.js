@@ -6,7 +6,7 @@ var uniqid = require('uniqid');
 
 // Express app
 const app = express();
-const PORT = process.env.PORT || 3002;
+const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(express.static('public'));
@@ -34,7 +34,7 @@ app.post('/api/notes', (req, res) => {
         id: uniqid(),
         };
     db.push(userNote);
-    fs.writeFile('db/db.json', JSON.stringify(db));
+    fs.writeFile('db/db.json', JSON.stringify(db), (err) => err && console.error(err));
     res.json(userNote);
      });
 
@@ -42,7 +42,7 @@ app.post('/api/notes', (req, res) => {
 app.delete('/api/notes/:id', (req, res) => {
     let db = JSON.parse(fs.readFileSync('db/db.json'));
     let deleteNotes = db.filter(item => item.id !== req.params.id);
-    fs.writeFileSync('db/db.json', JSON.stringify(deleteNotes));
+    fs.writeFileSync('db/db.json', JSON.stringify(deleteNotes), (err) => err && console.error(err));
     res.json({ message: 'Note deleted successfully' });
 });
 
