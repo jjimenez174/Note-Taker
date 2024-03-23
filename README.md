@@ -26,7 +26,8 @@ All set to run the app.
 ## Usage
 * run <b>node server.js</b>
 * Open <b>http://localhost:3001</b> in the browser
- 
+* Deploy it Heroku
+
 ## Contribution
 At the moment I won't be accepting contributions.
 
@@ -44,6 +45,6 @@ Contact me at: [jjimenez174](https://github.com/jjimenez174)
 
 ## Link Deploy Application
 
-[Deploy Application](https://jjimenez174.github.io/Note-Taker/)
+[Deploy Application](https://dashboard.heroku.com/apps/note-taker-app2)
 
-[Heroku]()
+[Heroku](https://note-taker-app2-9d58584a1043.herokuapp.com/)
