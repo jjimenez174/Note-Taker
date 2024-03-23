@@ -45,6 +45,6 @@ Contact me at: [jjimenez174](https://github.com/jjimenez174)
 
 ## Link Deploy Application
 
-[Deploy Application](https://dashboard.heroku.com/apps/note-taker-app2)
+[Heroku](https://dashboard.heroku.com/apps/note-taker-app2)
 
-[Heroku](https://note-taker-app2-9d58584a1043.herokuapp.com/)
+[Deploy application](https://note-taker-app2-9d58584a1043.herokuapp.com/)
